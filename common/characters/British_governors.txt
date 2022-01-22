@@ -4,11 +4,11 @@ characters = {
 		name = ENG_Alan_Gordon_Cunningham
 		portraits = {
 			army = {
-				small="GFX_idea_heinrich_himmler"
-				large="gfx/leaders/BRITISH/Alan_Gordon_Cunningham.dds"
+				#small="GFX_idea_heinrich_himmler"
+				large="gfx/leaders/BRITISH/Alan_Gordon_Cunningham.png"
 			}
 			civilian = {
-				large="gfx/leaders/BRITISH/Alan_Gordon_Cunningham.dds"
+				large="gfx/leaders/BRITISH/Alan_Gordon_Cunningham.png"
 			}
 		}
 		country_leader = {
@@ -27,6 +27,33 @@ characters = {
 				
 			}
 			traits = { }
+		}
+		corps_commander = {
+			traits = { trait_cautious }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+	
+	ENG_Edmund_Allenby = {
+		name = ENG_Edmund_Allenby
+		portraits = {
+			army = {
+				#small="GFX_idea_heinrich_himmler"
+				large="gfx/leaders/BRITISH/ENG_Edmund_Allenby.png"
+			}
+			civilian = {
+				large="gfx/leaders/BRITISH/ENG_Edmund_Allenby.png"
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {  }
+			expire="1965.1.1.1"
+			desc = "ENG_Edmund_Allenby"
 		}
 		corps_commander = {
 			traits = { trait_cautious }

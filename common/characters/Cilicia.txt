@@ -5,10 +5,10 @@ characters = {
 		portraits = {
 			army = {
 				small="GFX_idea_heinrich_himmler"
-				large="gfx/leaders/CIL/Sargis_Torosyan.dds"
+				large="gfx/leaders/CIL/Sargis_Torosyan.png"
 			}
 			civilian = {
-				large="gfx/leaders/CIL/Sargis_Torosyan.dds"
+				large="gfx/leaders/CIL/Sargis_Torosyan.png"
 			}
 		}
 		country_leader = {
