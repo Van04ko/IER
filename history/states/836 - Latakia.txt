@@ -1,0 +1,21 @@
+state = {
+
+	id = 836
+	name = "STATE_836"
+	manpower = 123748
+	
+	state_category = rural
+
+	history = {
+		owner = LTK
+		add_core_of = LTK
+		buildings = {
+			infrastructure = 1
+			1088 = { naval_base = 1 }
+		}
+		victory_points = { 1088 1 }
+	}
+	provinces = { 1088 10087 }
+
+	local_supplies = 0.0 
+}

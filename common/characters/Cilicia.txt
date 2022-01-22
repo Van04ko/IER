@@ -1,0 +1,40 @@
+characters = {
+	
+	CIL_Sargis_Torosyan = {
+		name = CIL_Sargis_Torosyan
+		portraits = {
+			army = {
+				small="GFX_idea_heinrich_himmler"
+				large="gfx/leaders/CIL/Sargis_Torosyan.dds"
+			}
+			civilian = {
+				large="gfx/leaders/CIL/Sargis_Torosyan.dds"
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {  }
+			expire="1965.1.1.1"
+			desc = "CIL_Sargis_Torosyan_desc"
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = CIL_Sargis_Torosyan
+			allowed = {
+				original_tag = CIL
+			}
+			available = {
+				
+			}
+			traits = { }
+		}
+		corps_commander = {
+			traits = { }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+}

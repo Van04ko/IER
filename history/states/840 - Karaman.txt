@@ -1,0 +1,22 @@
+state = {
+
+	id = 840
+	name = "STATE_840"
+	manpower = 465412
+	
+	state_category = rural
+
+	history = {
+		owner = ITR
+		add_core_of = TUR
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 784 1 }
+		victory_points = { 6807 3 }
+	}
+
+	provinces = { 784 869 940 3788 3876 6807 6894 9755 9763 11860 }
+
+	local_supplies = 0.0 
+}

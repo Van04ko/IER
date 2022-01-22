@@ -1,0 +1,31 @@
+state = {
+
+	id=344
+	name="STATE_344"
+	manpower = 1081781
+	
+	state_category = town
+
+	history={
+		owner = CIL
+		add_core_of = CIL
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			11746 = {
+				naval_base = 3
+			}
+		}
+		victory_points = { 6813 3 }
+		victory_points = { 7620 10 }
+		victory_points = { 9893 20 }
+		victory_points = { 	11746 5 }
+	}
+
+	provinces={
+		806 886 3889 3890 3921 6813 6956 7620 9761 9893 9912 11746 
+	}
+
+
+	local_supplies=0.0 
+}

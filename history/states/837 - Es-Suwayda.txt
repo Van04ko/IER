@@ -1,0 +1,21 @@
+state = {
+
+	id = 837
+	name = "STATE_837"
+	manpower = 123748
+	
+	state_category = rural
+
+	history = {
+		owner = ESW
+		add_core_of = ESW
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 4486 5 }
+	}
+
+	provinces = { 4486 }
+
+	local_supplies = 0.0 
+}

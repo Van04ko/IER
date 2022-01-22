@@ -1,0 +1,22 @@
+state = {
+
+	id = 835
+	name = "STATE_835"
+	manpower = 123748
+	
+	state_category = rural
+
+	history = {
+		owner = ENG
+		add_core_of = CYP
+		buildings = {
+			infrastructure = 2
+			11984 = { naval_base = 1 }
+		}
+		victory_points = { 11984 5 }
+	}
+
+	provinces = { 11984 }
+
+	local_supplies = 6.0 
+}

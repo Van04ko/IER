@@ -1,0 +1,21 @@
+﻿focus_tree = {
+
+	id = RKT_Belgium_Northern_France_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = FNA
+		}
+	}
+	
+	initial_show_position = {
+		x = 0
+	}
+	
+	default = no
+	
+	shared_focus = FCSF_Choice_French_Colony
+}

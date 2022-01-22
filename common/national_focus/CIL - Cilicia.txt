@@ -1,0 +1,23 @@
+﻿focus_tree = {
+
+	id = CIL_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = CIL
+		}
+	}
+	
+	initial_show_position = {
+		x = 0
+	}
+	
+	default = no
+	
+	shared_focus = FCSF_Choice_French_Colony
+	
+	
+}

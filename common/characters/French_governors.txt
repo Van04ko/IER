@@ -1,0 +1,28 @@
+characters = {
+
+	FRA_Mehmet_Esat_Pasha = {
+		name = FRA_Mehmet_Esat_Pasha
+		portraits = {
+			army = {
+				#small="GFX_idea_heinrich_himmler"
+				large="gfx/leaders/FRENCH/FRA_Mehmet_Esat_Pasha.dds"
+			}
+			civilian = {
+				large="gfx/leaders/FRENCH/FRA_Mehmet_Esat_Pasha.dds"
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {  }
+			expire="1965.1.1.1"
+		}
+		corps_commander = {
+			traits = { }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+}

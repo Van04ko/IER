@@ -1,0 +1,29 @@
+characters = {
+	
+	GER_hindenburg = {
+		name = GER_hindenburg
+		portraits = {
+			army = {
+				#small="GFX_idea_heinrich_himmler"
+				large="gfx/leaders/GER/hindenburg.dds"
+			}
+			civilian = {
+				large="gfx/leaders/GER/hindenburg.dds"
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {  }
+			expire="1965.1.1.1"
+			desc = "POL_Jozef_Pilsudski_desc"
+		}
+		field_marshal = {
+			traits = { old_guard }
+			skill=5
+			attack_skill=3
+			defense_skill=5
+			planning_skill=4
+			logistics_skill=3
+		}
+	}
+}

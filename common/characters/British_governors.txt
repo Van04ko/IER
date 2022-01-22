@@ -1,0 +1,40 @@
+characters = {
+	
+	ENG_Alan_Gordon_Cunningham = {
+		name = ENG_Alan_Gordon_Cunningham
+		portraits = {
+			army = {
+				small="GFX_idea_heinrich_himmler"
+				large="gfx/leaders/BRITISH/Alan_Gordon_Cunningham.dds"
+			}
+			civilian = {
+				large="gfx/leaders/BRITISH/Alan_Gordon_Cunningham.dds"
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {  }
+			expire="1965.1.1.1"
+			desc = "ENG_Alan_Gordon_Cunningham_desc"
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = ENG_Alan_Gordon_Cunningham
+			allowed = {
+				original_tag = PAL
+			}
+			available = {
+				
+			}
+			traits = { }
+		}
+		corps_commander = {
+			traits = { trait_cautious }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+}
